@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get("/", (_, res)=>{
-    res.json({value:"bruh"})
+    res.json({value: process.env.SECRET})
 })
 
 app.listen(port,()=>{
