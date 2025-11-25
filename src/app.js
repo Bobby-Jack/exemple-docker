@@ -8,6 +8,6 @@ app.get("/", (_, res)=>{
 })
 
 app.listen(port,()=>{
-    console.log("exemple app listening on port "+port);
+    console.log("exemple app listening on the port "+port);
     
 })
